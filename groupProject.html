@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset ="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Group Project: Swimming</title>
+<link rel="stylesheet" href="styles.css">
+<script src="actions.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>COMPETITIVE SWIMMING</h1>
+    </header>
+    <nav>
+        <ul id="navList">
+            <li><a href="#swimmingStrokes">Swimming Strokes</a></li>
+            <li><a href="#competitiveRules">Competitive Rules</a></li>
+            <li><a href="#competitiveEvents">Competitive Events</a></li>
+            <li><a href="#whereSwim">Where to swim in melbourne</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="swimmingStrokes">
+            <h2>SWIMMING STROKES</h2>
+            <section id="swimmingStrokesLists">
+            <div class="strokes">
+                <div class="strokeHeader" id = "Crawl">Front Crawl</div>
+                <img src="freestyle.jpeg">
+                <button class="showListButton">Show Info</button>
+                <ul class="strokeDetails">
+                    <li>Continuous flutter kicking to propel the body forward</li>
+                    <li>Alternating arm strokes reaching forward and pulling through the water</li>
+                    <li>Rotation of the body for efficient breathing</li>
+                    <li>Fastest and most efficient stroke in competitive swimming</li>
+                </ul>
+            </div>
+            <div class="strokes">
+                <div class="strokeHeader" id = "Butterfly">Butterfly</div>
+                <img src="butterfly.jpeg">
+                <button class="showListButton">Show Info</button>
+                <ul class="strokeDetails">
+                    <li>Simultaneous arm movements resembling a butterfly's wings</li>
+                    <li>Dolphin kick with both legs moving up and down together</li>
+                    <li>Requires upper body strength and coordination</li>
+                    <li>Notable for being the most energy inefficient stroke</li>
+                </ul>
+            </div>
+            <div class="strokes">
+                <div class="strokeHeader" id = "Backstroke">Backstroke</div>
+                <img src="backStroke.jpeg">
+                <button class="showListButton">Show Info</button>
+                <ul class="strokeDetails">
+                    <li>Alternating arm strokes while on the back</li>
+                    <li>Flutter kick with a relaxed and steady motion</li>
+                    <li>Allows for continuous breathing without turning the head</li>
+                </ul>
+            </div>
+            <div class = "strokes">
+                <div class="strokeHeader" id = "Breaststroke">Breaststroke</div>
+                <img src="breastStroke.jpeg">
+                <button class="showListButton">Show Info</button>
+                <ul class="strokeDetails">
+                    <li>Uses frog-like kicking as the major driving force</li>
+                    <li>Arms extend outwards then pull back until palms reach the chest</li>
+                    <li>Requires focus on rhythm and tempo between arms and legs</li>
+                    <li>Graceful but commonly thought to be the slowest stroke</li>
+                </ul>
+            </div>
+            </section>
+            <section id="competitiveRules">
+                <h2>COMPETITIVE RULES</h2>
+                <section id="competitiveRulesList">
+                    <div class="compRules">
+                        <div class="rulesHeader">Starting</div>
+                        <ul class="rulesDetails">
+                            <li>Competitors must all start with both hands and feet on the blocks and must perform any dive of their preference to enter the water.</li>
+                            <li>Backstroke is exempted from this rule as competitors will start in the water.</li>
+                            <li>Competitors will be given only two signals for the race start:</li>
+                            <ul id="reffStuff">
+                                <li>The referee shouting "Take your marks"</li>
+                                <li>A single long whistle from the referee</li>
+                            </ul>
+                            <li>If a competitor leaves the block any moment before this, it is known as a "False Start".</li>
+                            <li>A False Start can be called by either the starting judge or the referee but must be agreed on by both to be valid.</li>
+                            <li>Competitors must remember that the starting judge is at all times in charge of their positioning.</li>
+                            <li>In the case of a relay:</li>
+                            <ul>
+                                <li>Any swimmer starting after the first must wait for the preceeding competitor to touch the wall and complete their length before leaving the blocks.</li>
+                                <li>Similar ruling as before applies in terms of False Starting.</li>
+                            </ul>
+                        </ul>
+                        <div class="rulesHeader">Finishing</div>
+                        <ul class="rulesDetails">
+                            <li>Competitors must touch the wall in the way specified by their stroke:</li>
+                            <ul id="finishingByStroke">
+                                <li><a>Front Crawl:</a> Atleast one hand must touch the wall.</li>
+                                <li><a>Backstroke:</a> Atleast one hand must touch the wall.</li>
+                                <li><a>Butterfly:</a> The length is considered complete once both hands have touched the wall.</li>
+                                <li><a>Breaststroke:</a> The length is considered complete once both hands have touched the wall.</li>
+                            </ul>
+                        </ul>
+                        <div class="rulesHeader">Turning</div>
+                        <ul class="rulesDetails">
+                            <li>Turning is the action of rotating ones body in the scenario where the full length of the pool is shorter than the length of the event.</li>
+                            <li>Turning can occur in any manner the competitor prefers for the freestyle event, as long as one part of the competitors body touches the wall.</li>
+                            <li>In both the Breaststroke and Butterfly events, the competitor must touch the wall with both hands during their turn.</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section id="competitiveEvents">
+                <h2>COMPETITIVE EVENTS</h2>
+                <section id="compEventsList">
+                    <div class="compEvents">
+                        <div class="eventsHeader">Freestyle</div>
+                        <ul class="eventsDetails">
+                            <li>Any stroke is allowed in this event, excluding Backstroke, Breaststroke and Butterfly, as such at competitive levels you will see exclusively the front crawl. </li>
+                            <li>At some point during the race, some part of the swimmer must break through the surface of the water.</li>
+                        </ul>
+                        <div class="eventsHeader">Butterfly</div>
+                        <ul class="eventsDetails">
+                            <li>Both arms must always be moving simultaneously above and under the water.</li>
+                            <li>All up and down movements of the legs must be done simultaneously. The feet do not need to be at the same level, but must not in any way alternate in upward or downward motions.</li>
+                            <li>At the start of the race, the swimmer is allowed one pull and kick to bring them to the surface. This motion must be followed by their head breaking the surface of the water.</li>
+                        </ul>
+                        <div class="eventsHeader">Breaststroke</div>
+                        <ul class="eventsDetails">
+                            <li>The feet must be turned outwards during the propulsive part of the kick, alternating between a frog and butterfly kick is illegal.</li>
+                            <li>At the start of the race and after each turn, the swimmer is permitted a single butterfly kick.</li>
+                            <li>Any stroke used to bring the swimmer to the surface of the water must be in the form of a breaststroke, where both arms move simultaneously and are partially submerged.</li>
+                        </ul>
+                        <div class="eventsHeader">Backstroke</div>
+                        <ul class="eventsDetails">
+                            <li>The swimmer must always be on their back duirng the race, with the exception of making turns.</li>
+                            <li>Some part of the swimmer must break through the surface during the race. They are allowed to be remain below the water for a maximum of 15m after the start and after each turn, after which the swimmers head must have surfaced.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="whereSwim">
+                    <h2>WHERE TO SWIM IN MELBOURNE</h2>
+                    <table id="whereSwimTable">
+                        <tr>
+                            <td>
+                                <h3>MSAC</h3>
+                                <img src="MSAC.jpeg" width="400" height="200">
+                                <a href="https://g.co/kgs/yzK1rCo">Google Maps Location</a>
+                            </td>
+                            <td>
+                                <h3>Melbourne H20 Swimming Club</h3>
+                                <img src="h20club.jpeg" width="400" height="178">
+                                <a href="https://g.co/kgs/rsy55pF">Google Maps Location</a>
+                            </td>
+                            <td>
+                                <h3>Total Aquatic Solutions</h3>
+                                <img src="tas.jpeg" width="400" height="200">
+                                <a href="https://g.co/kgs/FKZGcsV">Google Maps Location</a>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+</body>
+</html>

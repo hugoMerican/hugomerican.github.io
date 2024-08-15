@@ -1,0 +1,181 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  main{
+    padding-right:7%;
+    padding-left: 7%;
+  } 
+  header{
+    text-align: center;
+    background-color:darkblue;
+    color: aliceblue;
+    padding: 10px 0;
+  } 
+  h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem 0;
+    color: #0e1111;
+  }
+  #swimmingStrokesLists{
+    display:flex;
+    justify-content: space-between;
+  }  
+  .strokeDetails{
+    text-align: left;
+    font-family: 'Times New Roman';
+    list-style-type:disc;
+    font-size: 20px;
+    padding: 1rem 0;
+    margin-top: 0;
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+    display: none;
+  } 
+  .strokeHeader {
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #0e1111;
+  } 
+  .strokeDetails li{
+    line-height: 1.5;
+    max-width:275px;
+  } 
+  .strokeDetails.show{
+    opacity: 1;
+  } 
+  .showListButton {
+    display: block;
+    margin: 10px auto; 
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; 
+}
+  .showListButton:hover{
+    text-decoration: underline;
+  }
+nav {
+  background-color: darkblue;
+  padding: 10px 0;
+}
+
+#navList {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#navList li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navList li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+#navList li a:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+/*Competitive Rules*/
+#competitiveRules{
+  margin-left: 12%;
+  margin-right:12%
+}
+.rulesHeader{
+  font-size: 25px;
+  font-weight: bold;
+  color:#00b4e0;
+
+}
+.rulesDetails{
+  font-size: 19px;
+  font-family:'Oswald';
+  line-height: 1.5;
+}
+#reffStuff{
+  margin-left: 100px;
+} 
+#competitiveEvents{
+  margin-left:15%;
+  margin-right:15%;
+}
+.eventsHeader{
+  font-size: 25px;
+  font-weight: bold;
+  color:#00b4e0;
+} 
+.eventsDetails{
+  font-size:19px;
+  font-family:'Oswald';
+  line-height: 1.5;
+}
+#whereSwim {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#whereSwimTable {
+  margin:0 auto;
+  width: 1000px;
+}
+
+#whereSwimTable td {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: inline-block;
+  width: calc(33.33% - 2px);
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#whereSwimTable img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#whereSwimTable h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+#whereSwimTable p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+#whereSwimTable a {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#whereSwimTable a:hover {
+  background-color: #1e88e5;
+}
